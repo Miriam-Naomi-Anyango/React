@@ -5,6 +5,7 @@ import { Home } from './Components/Home';
 function App() {
   return (
     <div className="App">
+      <Home />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +20,7 @@ function App() {
           Learn React, it's simple
         </a>
       </header>
-      <Home />
+      
     </div>
   );
 }
