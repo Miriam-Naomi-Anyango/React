@@ -24,3 +24,5 @@ jobs:
         server: ftp.codexsolutions.co.ke
         username: react-trial@github-actions.codexsolutions.co.ke
         password: ${{ secrets.ftp_password }}
+        dangerous-clean-slate: true
+        local-dir: ./build/
